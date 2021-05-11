@@ -1,0 +1,16 @@
+E:\NIx Projects\BoolsAndCows\bin\Debug\net5.0\BoolsAndCows.exe
+E:\NIx Projects\BoolsAndCows\bin\Debug\net5.0\BoolsAndCows.deps.json
+E:\NIx Projects\BoolsAndCows\bin\Debug\net5.0\BoolsAndCows.runtimeconfig.json
+E:\NIx Projects\BoolsAndCows\bin\Debug\net5.0\BoolsAndCows.runtimeconfig.dev.json
+E:\NIx Projects\BoolsAndCows\bin\Debug\net5.0\BoolsAndCows.dll
+E:\NIx Projects\BoolsAndCows\bin\Debug\net5.0\ref\BoolsAndCows.dll
+E:\NIx Projects\BoolsAndCows\bin\Debug\net5.0\BoolsAndCows.pdb
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\BoolsAndCows.csprojAssemblyReference.cache
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\BoolsAndCows.GeneratedMSBuildEditorConfig.editorconfig
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\BoolsAndCows.AssemblyInfoInputs.cache
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\BoolsAndCows.AssemblyInfo.cs
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\BoolsAndCows.csproj.CoreCompileInputs.cache
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\BoolsAndCows.dll
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\ref\BoolsAndCows.dll
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\BoolsAndCows.pdb
+E:\NIx Projects\BoolsAndCows\obj\Debug\net5.0\BoolsAndCows.genruntimeconfig.cache
