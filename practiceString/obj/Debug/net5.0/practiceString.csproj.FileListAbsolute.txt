@@ -1,0 +1,16 @@
+E:\NIx Projects\practiceString\bin\Debug\net5.0\practiceString.exe
+E:\NIx Projects\practiceString\bin\Debug\net5.0\practiceString.deps.json
+E:\NIx Projects\practiceString\bin\Debug\net5.0\practiceString.runtimeconfig.json
+E:\NIx Projects\practiceString\bin\Debug\net5.0\practiceString.runtimeconfig.dev.json
+E:\NIx Projects\practiceString\bin\Debug\net5.0\practiceString.dll
+E:\NIx Projects\practiceString\bin\Debug\net5.0\ref\practiceString.dll
+E:\NIx Projects\practiceString\bin\Debug\net5.0\practiceString.pdb
+E:\NIx Projects\practiceString\obj\Debug\net5.0\practiceString.csprojAssemblyReference.cache
+E:\NIx Projects\practiceString\obj\Debug\net5.0\practiceString.GeneratedMSBuildEditorConfig.editorconfig
+E:\NIx Projects\practiceString\obj\Debug\net5.0\practiceString.AssemblyInfoInputs.cache
+E:\NIx Projects\practiceString\obj\Debug\net5.0\practiceString.AssemblyInfo.cs
+E:\NIx Projects\practiceString\obj\Debug\net5.0\practiceString.csproj.CoreCompileInputs.cache
+E:\NIx Projects\practiceString\obj\Debug\net5.0\practiceString.dll
+E:\NIx Projects\practiceString\obj\Debug\net5.0\ref\practiceString.dll
+E:\NIx Projects\practiceString\obj\Debug\net5.0\practiceString.pdb
+E:\NIx Projects\practiceString\obj\Debug\net5.0\practiceString.genruntimeconfig.cache
