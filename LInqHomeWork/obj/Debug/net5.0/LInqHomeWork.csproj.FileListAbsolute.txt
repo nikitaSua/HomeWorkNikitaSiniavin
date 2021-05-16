@@ -1,0 +1,16 @@
+E:\NIx Projects\LInqHomeWork\bin\Debug\net5.0\LInqHomeWork.exe
+E:\NIx Projects\LInqHomeWork\bin\Debug\net5.0\LInqHomeWork.deps.json
+E:\NIx Projects\LInqHomeWork\bin\Debug\net5.0\LInqHomeWork.runtimeconfig.json
+E:\NIx Projects\LInqHomeWork\bin\Debug\net5.0\LInqHomeWork.runtimeconfig.dev.json
+E:\NIx Projects\LInqHomeWork\bin\Debug\net5.0\LInqHomeWork.dll
+E:\NIx Projects\LInqHomeWork\bin\Debug\net5.0\ref\LInqHomeWork.dll
+E:\NIx Projects\LInqHomeWork\bin\Debug\net5.0\LInqHomeWork.pdb
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\LInqHomeWork.csprojAssemblyReference.cache
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\LInqHomeWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\LInqHomeWork.AssemblyInfoInputs.cache
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\LInqHomeWork.AssemblyInfo.cs
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\LInqHomeWork.csproj.CoreCompileInputs.cache
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\LInqHomeWork.dll
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\ref\LInqHomeWork.dll
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\LInqHomeWork.pdb
+E:\NIx Projects\LInqHomeWork\obj\Debug\net5.0\LInqHomeWork.genruntimeconfig.cache
