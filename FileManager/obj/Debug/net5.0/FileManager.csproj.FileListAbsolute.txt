@@ -1,0 +1,16 @@
+E:\NIx Projects\FileManager\bin\Debug\net5.0\FileManager.exe
+E:\NIx Projects\FileManager\bin\Debug\net5.0\FileManager.deps.json
+E:\NIx Projects\FileManager\bin\Debug\net5.0\FileManager.runtimeconfig.json
+E:\NIx Projects\FileManager\bin\Debug\net5.0\FileManager.runtimeconfig.dev.json
+E:\NIx Projects\FileManager\bin\Debug\net5.0\FileManager.dll
+E:\NIx Projects\FileManager\bin\Debug\net5.0\ref\FileManager.dll
+E:\NIx Projects\FileManager\bin\Debug\net5.0\FileManager.pdb
+E:\NIx Projects\FileManager\obj\Debug\net5.0\FileManager.csprojAssemblyReference.cache
+E:\NIx Projects\FileManager\obj\Debug\net5.0\FileManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\NIx Projects\FileManager\obj\Debug\net5.0\FileManager.AssemblyInfoInputs.cache
+E:\NIx Projects\FileManager\obj\Debug\net5.0\FileManager.AssemblyInfo.cs
+E:\NIx Projects\FileManager\obj\Debug\net5.0\FileManager.csproj.CoreCompileInputs.cache
+E:\NIx Projects\FileManager\obj\Debug\net5.0\FileManager.dll
+E:\NIx Projects\FileManager\obj\Debug\net5.0\ref\FileManager.dll
+E:\NIx Projects\FileManager\obj\Debug\net5.0\FileManager.pdb
+E:\NIx Projects\FileManager\obj\Debug\net5.0\FileManager.genruntimeconfig.cache
