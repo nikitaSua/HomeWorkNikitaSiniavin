@@ -32,15 +32,6 @@ namespace TaskInCl_2
                     new Customer(20, "Anna Ledesma", new DateTime(2017, 12, 29), 0.8)
                 };
 
-            //SearchMethods.FirstCustomer(customers);
-
-            //Console.WriteLine(SearchMethods.avarageBalance(customers));
-
-            //SearchMethods.SortByDateInRange(customers, new DateTime(2011, 7, 10), new DateTime(2017, 10, 2));
-            //SearchMethods.SortByDateInRangeV2(customers, new DateTime(2017, 10, 2), new DateTime(2011, 7, 10));
-
-            //SearchMethods.SearchByName(customers, "Margert");
-            //SearchMethods.SortFieldAndDirection<Customer>(customers, "Name");
 
             SearchMethods.AllNameWriter(customers);
 
@@ -66,7 +57,7 @@ namespace TaskInCl_2
                         Console.ReadLine();
                         break;
                     case 2:
-                        SearchMethods.avarageBalance(customers);
+                        SearchMethods.AvarageBalance(customers);
                         Console.ReadLine();
                         break;
                     case 3:
@@ -74,7 +65,7 @@ namespace TaskInCl_2
                         Console.ReadLine();
                         break;
                     case 4:
-                        SearchMethods.searchById(customers,5);
+                        SearchMethods.SearchById(customers,5);
                         Console.ReadLine();
                         break;
                     case 5:
@@ -97,18 +88,7 @@ namespace TaskInCl_2
                     default:
                         break;
                 }
-
-
             } while (true);
-
-
-
-
-
-
-
-
-
         }
     }
 }
