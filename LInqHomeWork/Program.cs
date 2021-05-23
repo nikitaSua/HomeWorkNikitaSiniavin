@@ -28,23 +28,6 @@ namespace LInqHomeWork
                 "Leonardo DiCaprio"
             };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             LinqRequests.NumbersFromTenTofifty();
             LinqRequests.NumbersFromTenTofiftymultipleTHree();
             LinqRequests.LibqTenTims();
@@ -55,7 +38,6 @@ namespace LInqHomeWork
             LinqRequests.ShorstReverse("aaa; xabbx; abb; ccc; dap");
             LinqRequests.IsExistAabb();
             LinqRequests.LastWord();
-
 
             LinqRequests.ActorNames(data);
             LinqRequests.NumOfActorsCreatedInAugest(data);
