@@ -15,7 +15,6 @@ namespace practiceString
         {
             List<int> numbers = new List<int>();
 
-
             string pattern = @"\d?";
             for (int i = 0; i < str.Length; i++)
             {
@@ -31,37 +30,27 @@ namespace practiceString
                 Console.WriteLine(item);
             }
         }
-
         public static void DevisionOfTwoNumbers(int a, int b)
         {
-
             double answer = (double)a / (double)b;
             answer = Math.Round(answer, 2);
             Console.WriteLine(answer);
         }
-
         public static void ExponentReader()
         {
             Console.WriteLine("число в экспоненциальной форме :");
-            string InpStr = Console.ReadLine();
 
+            string InpStr = Console.ReadLine();
             string FirsPArtOFNumReg = (@"\d*");
             var FirsPArtTemp = Regex.Match(InpStr, FirsPArtOFNumReg);
-
             string LastPArtOFNumReg = (@"\d*$");
             var LastPArtTemp = Regex.Match(InpStr, LastPArtOFNumReg);
-
             string SignReg = (@"-");
             var SignTemp = Regex.Match(InpStr, SignReg);
-
-
             string val = FirsPArtTemp.Value;
             string LastValue = LastPArtTemp.Value;
             string SignTempval = SignTemp.Value;
-
             int answerA = 0;
-
-
             if (SignTempval == "")
             {
                 for (int i = 0; i < Convert.ToInt32(LastValue); i++)
@@ -75,23 +64,17 @@ namespace practiceString
                 decimal a = Convert.ToInt32(val) / (10 * Convert.ToInt32(LastValue));
                 Console.WriteLine(a);
             }
-
         }
-
         public static void DateInIso()
         {
             var a = DateTime.UtcNow.ToString("yyyy-MM-ddTHH\\:mm\\:ss.fffffffzzz");
             Console.WriteLine(a);
         }
-
         public static void StringDateToDate(string str)
         {
-
             DateTime Arr = DateTime.ParseExact(str, "yyyy dd-MM", CultureInfo.InvariantCulture);
-
             Console.WriteLine($"{Arr.Year} {Arr.Day}-{Arr.Month}");
         }
-
         public static void IntNumbersStingSumParse(string str)
         {
             int totulSum = 0;
@@ -103,7 +86,6 @@ namespace practiceString
             }
             Console.WriteLine(totulSum);
         }
-
         public static void RegExAnyLettersAnyNims(string str)
         {
             List<string> result = new List<string>();
@@ -120,15 +102,11 @@ namespace practiceString
                     result.Add(val);
                 }
             }
-
             foreach (var item in result)
             {
                 Console.WriteLine(item);
             }
-
         }
-
-
         public static void RegExUserPasswordValidatorSixSigns(string str)
         {
             string pattern = @"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$";
@@ -149,7 +127,6 @@ namespace practiceString
             }
             else Console.WriteLine("Wrong Post Code format");
         }
-
         public static void RegExPhoneNumberValidator(string str)
         {
             string pattern = ("[+][0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}");
@@ -159,7 +136,6 @@ namespace practiceString
             }
             else Console.WriteLine("Wrong phone number format");
         }
-
         public static void RegExPhoneNumberReplaser(string str)
         {
             string pattern = ("[+][0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}");
@@ -169,11 +145,9 @@ namespace practiceString
 
             Console.WriteLine(result);
         }
-
         public static void FirstNameLatterReplaser(string[] str)
         {
             string pattern = (@"^\w*");
-
             var textInfo = new CultureInfo("ru-RU").TextInfo;
             List<string> UpperNames = new List<string>();
 
@@ -187,16 +161,11 @@ namespace practiceString
                 Console.WriteLine(item);
             }
         }
-
         public static void DecoderBae64(string str)
         {
             var Converted = Convert.FromBase64String(str);
-
             Console.WriteLine(System.Text.Encoding.UTF8.GetString(Converted));
-
         }
-
-
         static int partition<T>(T[] m, int a, int b)
         where T : IComparable<T>
         {
@@ -213,8 +182,6 @@ namespace practiceString
             }
             return i - 1;                        // в индексе i хранится <новая позиция элемента m[b]> + 1
         }
-
-
         public static void quicksort<T>(T[] m, int a, int b) where T : IComparable<T>// a - начало подмножества, b - конец
         {                                        // для первого вызова: a = 0, b = <элементов в массиве> - 1
             if (a >= b) return;
@@ -223,13 +190,9 @@ namespace practiceString
             quicksort(m, c + 1, b);
         }
     }
-
-            
-
-    }
+ }
 
 
 
 
-    }
-}
+
