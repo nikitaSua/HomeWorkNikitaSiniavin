@@ -1,0 +1,13 @@
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\bin\Debug\netcoreapp3.1\SaveDataCSV.exe
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\bin\Debug\netcoreapp3.1\SaveDataCSV.deps.json
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\bin\Debug\netcoreapp3.1\SaveDataCSV.runtimeconfig.json
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\bin\Debug\netcoreapp3.1\SaveDataCSV.runtimeconfig.dev.json
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\bin\Debug\netcoreapp3.1\SaveDataCSV.dll
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\bin\Debug\netcoreapp3.1\SaveDataCSV.pdb
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\obj\Debug\netcoreapp3.1\SaveDataCSV.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\obj\Debug\netcoreapp3.1\SaveDataCSV.AssemblyInfoInputs.cache
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\obj\Debug\netcoreapp3.1\SaveDataCSV.AssemblyInfo.cs
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\obj\Debug\netcoreapp3.1\SaveDataCSV.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\obj\Debug\netcoreapp3.1\SaveDataCSV.dll
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\obj\Debug\netcoreapp3.1\SaveDataCSV.pdb
+C:\Users\Никита\Desktop\Ярослав проекты\SaveDataCSV\obj\Debug\netcoreapp3.1\SaveDataCSV.genruntimeconfig.cache
