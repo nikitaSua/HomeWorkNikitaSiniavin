@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Linq.Expressions;
+using System.Text;
 
 namespace SaveDataCSV
 {
@@ -8,53 +10,39 @@ namespace SaveDataCSV
         static void Main(string[] args)
         {
             Console.WriteLine("Введите поля Person");
-            string answer = Console.ReadLine();
-            string[] words = answer.Split(',');
-            string result = "";
-            foreach (var person in PersonList.GetListPerson())
+
+            string[] Propstr = Console.ReadLine().Split(',');
+            var csv = new StringBuilder();
+
+
+            foreach (var item in PersonList.GetListPerson())
             {
 
-                for (int i = 0; i < words.Length; i++)
+                PrintToFile(() => item.Name, Propstr, csv);
+                PrintToFile(() => item.Address, Propstr, csv);
+                PrintToFile(() => item.Age, Propstr, csv);
+                PrintToFile(() => item.EyeColor, Propstr, csv);
+                PrintToFile(() => item.Gender, Propstr, csv);
+                PrintToFile(() => item.Salary, Propstr, csv);
+                PrintToFile(() => item.Company, Propstr, csv);
+                csv.Append("\n");
+            }
+
+            File.AppendAllText("E:\\file.csv", csv.ToString());
+
+            static void PrintToFile<T>(Expression<Func <T>> expression , string[] propstr, StringBuilder csv)
+            {
+                foreach(var item in propstr)
                 {
-
-                    switch (words[i])
+                    if (item == ((MemberExpression)expression.Body).Member.Name)
                     {
-                        case "Age":
-                            result += person.Age;
-                            break;
-                        case "EyeColor":
-                            result += person.EyeColor;
-                            break;
-                        case "Name":
-                            result += person.Name;
-                            break;
-                        case "Gender":
-                            result += person.Gender;
-                            break;
-                        case "Company":
-                            result += person.Company;
-                            break;
-                        case "Address":
-                            result += person.Address;
-                            break;
-                        case "Salary":
-                            result += person.Salary;
-                            break;
-                        default:
-                            break;
+                        csv.Append(((MemberExpression)expression.Body).Member.Name + "  " + expression.Compile()());
+                        csv.Append(", ");
                     }
-                    result += "\r\n";
-
                 }
-                result += "\n";
+
+
             }
-            StreamWriter sw = new StreamWriter(@$"AllPerson.csv", true);
-            {
-                sw.Write(result);
-            }
-            sw.Write("\r\n");
-            sw.Flush();
-            sw.Close();
         }
     }
 }
