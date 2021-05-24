@@ -10,14 +10,10 @@ namespace SaveDataCSV
         static void Main(string[] args)
         {
             Console.WriteLine("Введите поля Person");
-
             string[] Propstr = Console.ReadLine().Split(',');
             var csv = new StringBuilder();
-
-
             foreach (var item in PersonList.GetListPerson())
             {
-
                 PrintToFile(() => item.Name, Propstr, csv);
                 PrintToFile(() => item.Address, Propstr, csv);
                 PrintToFile(() => item.Age, Propstr, csv);
@@ -27,7 +23,6 @@ namespace SaveDataCSV
                 PrintToFile(() => item.Company, Propstr, csv);
                 csv.Append("\n");
             }
-
             File.AppendAllText("E:\\file.csv", csv.ToString());
 
             static void PrintToFile<T>(Expression<Func <T>> expression , string[] propstr, StringBuilder csv)
@@ -40,8 +35,6 @@ namespace SaveDataCSV
                         csv.Append(", ");
                     }
                 }
-
-
             }
         }
     }
