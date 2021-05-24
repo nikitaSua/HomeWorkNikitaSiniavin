@@ -1,0 +1,16 @@
+E:\NIx Projects\TaskInCl_2\bin\Debug\net5.0\TaskInCl_2.exe
+E:\NIx Projects\TaskInCl_2\bin\Debug\net5.0\TaskInCl_2.deps.json
+E:\NIx Projects\TaskInCl_2\bin\Debug\net5.0\TaskInCl_2.runtimeconfig.json
+E:\NIx Projects\TaskInCl_2\bin\Debug\net5.0\TaskInCl_2.runtimeconfig.dev.json
+E:\NIx Projects\TaskInCl_2\bin\Debug\net5.0\TaskInCl_2.dll
+E:\NIx Projects\TaskInCl_2\bin\Debug\net5.0\ref\TaskInCl_2.dll
+E:\NIx Projects\TaskInCl_2\bin\Debug\net5.0\TaskInCl_2.pdb
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\TaskInCl_2.csprojAssemblyReference.cache
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\TaskInCl_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\TaskInCl_2.AssemblyInfoInputs.cache
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\TaskInCl_2.AssemblyInfo.cs
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\TaskInCl_2.csproj.CoreCompileInputs.cache
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\TaskInCl_2.dll
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\ref\TaskInCl_2.dll
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\TaskInCl_2.pdb
+E:\NIx Projects\TaskInCl_2\obj\Debug\net5.0\TaskInCl_2.genruntimeconfig.cache
