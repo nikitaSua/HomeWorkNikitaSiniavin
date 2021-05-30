@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL\\BLL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL.Abstractions\\BLL.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL.Abstractions\\BLL.Abstractions.csproj",
+        "projectName": "BLL.Abstractions",
+        "projectPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL.Abstractions\\BLL.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL.Abstractions\\BLL.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\BLL.Abstractions\\BLL.Abstractions.csproj"
+              },
+              "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\DAL.Abstractions\\DAL.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\DAL.Abstractions\\DAL.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\DAL.Abstractions\\DAL.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\DAL.Abstractions\\DAL.Abstractions.csproj",
+        "projectName": "DAL.Abstractions",
+        "projectPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\DAL.Abstractions\\DAL.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\DAL.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Desktop\\NixTask\\ConsoleApp8\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
