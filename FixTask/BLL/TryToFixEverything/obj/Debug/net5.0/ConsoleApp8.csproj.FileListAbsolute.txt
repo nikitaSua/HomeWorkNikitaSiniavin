@@ -1,0 +1,16 @@
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\bin\Debug\net5.0\ConsoleApp8.exe
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\bin\Debug\net5.0\ConsoleApp8.deps.json
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\bin\Debug\net5.0\ConsoleApp8.runtimeconfig.json
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\bin\Debug\net5.0\ConsoleApp8.runtimeconfig.dev.json
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\bin\Debug\net5.0\ConsoleApp8.dll
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\bin\Debug\net5.0\ref\ConsoleApp8.dll
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\bin\Debug\net5.0\ConsoleApp8.pdb
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ConsoleApp8.csprojAssemblyReference.cache
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ConsoleApp8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ConsoleApp8.AssemblyInfoInputs.cache
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ConsoleApp8.AssemblyInfo.cs
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ConsoleApp8.csproj.CoreCompileInputs.cache
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ConsoleApp8.dll
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ref\ConsoleApp8.dll
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ConsoleApp8.pdb
+C:\Users\tereshchenko\RiderProjects\ConsoleApp8\ConsoleApp8\obj\Debug\net5.0\ConsoleApp8.genruntimeconfig.cache
