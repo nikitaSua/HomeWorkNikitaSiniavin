@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDPpractice", "TDDPpractice.csproj", "{E1180D32-143B-42C7-A250-8618A88E9A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFourCalc", "..\TestFourCalc\TestFourCalc.csproj", "{664E6420-1FCA-45BF-8036-E6CBD8B800CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1180D32-143B-42C7-A250-8618A88E9A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1180D32-143B-42C7-A250-8618A88E9A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1180D32-143B-42C7-A250-8618A88E9A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1180D32-143B-42C7-A250-8618A88E9A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664E6420-1FCA-45BF-8036-E6CBD8B800CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664E6420-1FCA-45BF-8036-E6CBD8B800CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664E6420-1FCA-45BF-8036-E6CBD8B800CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664E6420-1FCA-45BF-8036-E6CBD8B800CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FE7C7D2-FB26-4625-8F58-E5E500CA7238}
+	EndGlobalSection
+EndGlobal

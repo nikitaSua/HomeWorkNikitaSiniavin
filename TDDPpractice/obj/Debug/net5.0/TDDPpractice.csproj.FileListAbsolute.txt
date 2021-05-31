@@ -1,0 +1,16 @@
+E:\NIx Projects\TDDPpractice\bin\Debug\net5.0\TDDPpractice.exe
+E:\NIx Projects\TDDPpractice\bin\Debug\net5.0\TDDPpractice.deps.json
+E:\NIx Projects\TDDPpractice\bin\Debug\net5.0\TDDPpractice.runtimeconfig.json
+E:\NIx Projects\TDDPpractice\bin\Debug\net5.0\TDDPpractice.runtimeconfig.dev.json
+E:\NIx Projects\TDDPpractice\bin\Debug\net5.0\TDDPpractice.dll
+E:\NIx Projects\TDDPpractice\bin\Debug\net5.0\ref\TDDPpractice.dll
+E:\NIx Projects\TDDPpractice\bin\Debug\net5.0\TDDPpractice.pdb
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\TDDPpractice.csprojAssemblyReference.cache
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\TDDPpractice.GeneratedMSBuildEditorConfig.editorconfig
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\TDDPpractice.AssemblyInfoInputs.cache
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\TDDPpractice.AssemblyInfo.cs
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\TDDPpractice.csproj.CoreCompileInputs.cache
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\TDDPpractice.dll
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\ref\TDDPpractice.dll
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\TDDPpractice.pdb
+E:\NIx Projects\TDDPpractice\obj\Debug\net5.0\TDDPpractice.genruntimeconfig.cache
