@@ -1,0 +1,23 @@
+.Paragraph_bold{
+    font-weight:bold;
+}
+ol{
+    color:red;
+}
+ul{
+    color: #ad4343;
+}
+.redFont{
+    color: red;
+}
+.upperText{
+    font-size:20px;
+    font-weight: bold;
+}
+.fontBlue{
+    color: blue;
+    font-weight: bold;
+}
+h3{
+    color:green;
+}

@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+.leftPart{
+    width:45%;
+}
+.rightPart{
+    width: 30%;
+    background-image: url(../img/1.png) ;
+    background-repeat: repeat-y;
+    text-align: right;
+
+}
