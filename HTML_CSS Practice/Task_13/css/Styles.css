@@ -1,0 +1,18 @@
+nav{
+    background-color: rgb(255, 94, 0);
+    
+}
+li{
+    display:inline-block;
+    padding: 5px 0;
+
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    margin:  0px 10px;
+    
+}
+li a:visited{
+    color: black;
+}

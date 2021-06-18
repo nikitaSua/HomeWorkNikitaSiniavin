@@ -1,0 +1,9 @@
+.bold_P{
+    font-weight:bold;
+}
+.mainTable{
+    border: 3px ridge black;
+}
+.mainTable td{
+    border: 3px ridge black;
+}
