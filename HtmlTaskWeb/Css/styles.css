@@ -1,0 +1,181 @@
+.main_menu{
+    width: 100%;
+    background-color: rgb(59, 52, 52);
+    padding-left: 20px;
+}
+.main_menu>div>a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+.main_menu>div>a:hover{
+
+    color: rgb(35, 136, 231);
+}
+.main_menu>div>a>img{
+    height: 30px;
+}
+.control_bar{
+    text-align: right;
+}
+.control_bar>a:hover{
+    color: rgb(255, 60, 0)!important;
+}
+.greatings_info>.container-fluid{
+    background-image: url(../Img/greatings_background.jpeg);
+    background-position: 50% 50%;
+}
+.greatings_info>.container-fluid>.row{
+    padding: 200px 0;
+}
+.central_text{
+    text-align: center;
+}
+
+.main_heading{
+    color: rgb(255, 60, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vh;
+    background-color: #fff;
+    margin: 45px 0;
+    padding: 5px;
+    box-shadow: 0px 0px 70px -29px rgba(34, 60, 80, 0.64) inset;
+}
+.transparent_button{
+    border: 2px solid #fff;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.transparent_button:hover{
+    background-color: #ff502f;
+    color: #fff;
+}
+.carousel-item{
+    height: 600px;
+    background-position: 50% 50%;
+}
+.carousel-item{
+    height: 500px;
+}
+    
+
+.separator_heading{
+    color: rgb(255, 60, 0);
+    margin: 0;
+    padding: 30px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vh;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 67px -1px rgba(34, 60, 80, 0.64) inset;
+
+}
+
+.container_img{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.first_container{
+    background-image: url(../Img/slide2.jpg);
+}
+.second_container{
+    background-image: url(../Img/slide3.png);
+}
+.third_container{
+    background-image: url(../Img/slide1.jpg);
+}
+.carousel_span_controller{
+    background-color: black;
+    color: white;
+}
+.carousel-caption>h5{
+    color: rgb(255, 60, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vh;
+    text-align: center;
+}
+.carousel-caption>p{
+    color: rgb(247, 247, 247);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+    text-align: center;
+}
+.popular_courses{
+    background-image: url(../Img/courses_img.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.popular_courses>.row{
+    padding: 60px 0;
+}
+.courses_elements{
+    background-color: #fff;
+    padding: 30px 0;
+    box-shadow: 0px 0px 67px -1px rgba(34, 60, 80, 0.64) inset;
+    border-radius: 25px;
+}
+.courses_elements>ul>li{
+    list-style-type: none;
+    padding: 30px 0;
+    color: rgb(255, 60, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vh;
+}
+.transparent_button_black{
+    border: 2px solid #000;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 2vh;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+    float: right;
+    margin-right: 5%;
+}
+.transparent_button_black:hover{
+    background-color: #ff502f;
+    color: #fff;
+}
+.our_advantage{
+    background-image: url(../Img/Languages.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+.our_advantage{
+    padding: 80px 0;
+}
+.our_advantage{
+    padding: 120px 0;
+}
+.advantage_item{
+    color: #ff502f;
+    padding: 20px;
+    border-radius:25px;
+    text-align: center;
+}
+.advantage_item:hover{
+    color: #ececec;
+}
+.advantage_item>h3{
+    font-family: 'Bebas Neue', cursive;
+}
+.advantage_item>p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+footer{
+    background-color: rgb(255, 166, 0);
+}
+footer a{
+    text-decoration: none;
+    font-weight: 700;
+}
