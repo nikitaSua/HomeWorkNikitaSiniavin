@@ -179,3 +179,45 @@ footer a{
     text-decoration: none;
     font-weight: 700;
 }
+.autorization_form{
+    margin-top: 10vh;
+}
+.autorization_form>.imgcontainer{
+    text-align: center;
+}
+.autorization_form>.imgcontainer img{
+    border-radius: 50%;
+    width: 20%;
+}
+.inp_fields{
+    margin: 50px 0;
+    margin-left: 10%;
+}
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.canselation_forn{
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 70px;
+}
