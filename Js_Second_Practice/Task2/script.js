@@ -1,43 +1,15 @@
 
 class Shape {
-    constructor(width, height) {
-        if (typeof (width) == "number" && typeof (height) == "number") {
-            this.width = width;
-            this.height = height;
-        } else {
-            console.log("error not a number");
-        }
-    }
-    getSquare() {
-        return this.height * this.width;
-    }
-    calculateSquare(width, height) {
-        if (typeof (width) == "number" && typeof (height) == "number") {
-            return height * width;
-        } else {
-            console.log("error not a number");
-            return;
-        }
-    }
+    side = 223;
+    square() { }
 }
-
-function getAllMethods(object) {
-    return Object.getOwnPropertyNames(object).filter(function (property) {
-        return typeof object[property] == 'function';
-    });
-}
-
-
-
-(function () {
-    'use strict';
-    let cl = new Shape(5, 5);
-
-    console.log();
-    let propertyes = Object.getOwnPropertyNames(cl)
-    for (var i = 0; i < propertyes.length; i++) {
-        console.log(propertyes[i]);
-    }
-    console.log(Object.getOwnPropertyNames(cl).filter(item => typeof cl[item] === 'function'));
-
-})();
+var shape = new Shape();
+const getMethods = (obj) => {
+    let properties = new Set();
+    let currentObj = obj;
+    do {
+        Object.getOwnPropertyNames(currentObj).map((item) => properties.add(item));
+    } while ((currentObj = Object.getPrototypeOf(currentObj)));
+    return [...properties.keys()];
+};
+alert(getMethods(shape));
