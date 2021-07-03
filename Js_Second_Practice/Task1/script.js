@@ -1,29 +1,18 @@
 
 class Shape {
-    constructor(width, height) {
-        if (typeof (width) == "number" && typeof (height) == "number") {
-            this.width = width;
-            this.height = height;
-        } else {
-            console.log("error not a number");
-        }
+    constructor() {
+        
     }
     getSquare() {
-        return this.height * this.width;
     }
     static calculateSquare(width, height) {
-        if (typeof (width) == "number" && typeof (height) == "number") {
-            return height * width;
-        } else {
-            console.log("error not a number");
-            return;
-        }
+        
     }
 }
 
 class Circul extends Shape {
     constructor(radius) {
-        super(radius, radius);
+        super();
         this.radius = radius;
     }
     getSquare() {
@@ -40,10 +29,11 @@ class Circul extends Shape {
 }
 class Square extends Shape {
     constructor(SideSize) {
-        super(SideSize, SideSize); // вызывает конструктор super класса и передаёт параметр name
+        super();
+        this.SideSize=SideSize;
     }
     getSquare() {
-        return this.height * this.height;
+        return this.SideSize * this.SideSize;
     }
     static calculateSquare(SideSize) {
         if (typeof (SideSize) == "number") {
@@ -54,16 +44,10 @@ class Square extends Shape {
         }
     }
 }
-
-
 (function () {
     'use strict';
-    let cl = new Shape(5, 5);
-    console.log(cl.width);
-    console.log(cl.getSquare());
 
     let circul = new Circul(5);
     console.log(circul.getSquare());
-    console.log(Shape.calculateSquare(10, 10));
     console.log(Circul.calculateSquare(6));
 })();
