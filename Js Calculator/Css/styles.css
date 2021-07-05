@@ -1,0 +1,33 @@
+form{
+    text-align: center;
+}
+form > input[type="text"]{
+    width:250px;
+    font-size: 24px;
+    color: #000;
+    padding: 5px;
+    background-color: rgb(253, 154, 42);
+    border-radius: 5px;
+    margin: 20px 40px;
+    border: 2px solid #000;
+}
+.InputControls{
+    text-align: center;
+}
+.InputControls input{
+    width: 45px ;
+    margin: 10px 3px;
+    font-weight: bold;
+    background-color: rgb(250, 255, 185);
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.numericInput{
+
+}
+.ControlInput{
+
+}
+.numericInput input{
+
+}
