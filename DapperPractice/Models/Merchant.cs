@@ -13,7 +13,7 @@ namespace DapperPractice.Models
         public string Name { get; set; }
         public int CountryCode { get; set; }
         public Countries Countries { get; set; }
-        public DateTime CreatedAt { get { return CreatedAt; } set { CreatedAt=DateTime.Now; } }
+        public DateTime CreatedAt { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
 

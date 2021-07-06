@@ -12,7 +12,7 @@ namespace DapperPractice.Models
         public int UserId { get; set; }
         public User User { get; set; }
         public int Status { get; set; }
-        public DateTime CreatedAt { get { return CreatedAt; } set { CreatedAt = DateTime.Now; } }
+        public DateTime CreatedAt { get; set; }
         public string OrderJson { get; set; }
         public List<OrderItem> OrderItems { get; set; }
         public Order()

@@ -104,10 +104,18 @@ namespace DapperPractice
             return updateQuery.ToString();
         }
 
+        //async Task<IEnumerable<TEntity>> IRepository.GetAllAsync<TEntity>()
+        //{
+        //    var type = typeof(TEntity);
+        //    using(var connection = new SqlConnection(connectionString))
+        //    {
+        //        return await connection.QueryAsync<TEntity>($"SELECT * FROM {type.Name}s");
+        //    }
+        //}
         async Task<IEnumerable<TEntity>> IRepository.GetAllAsync<TEntity>()
         {
             var type = typeof(TEntity);
-            using(var connection = new SqlConnection(connectionString))
+            using (var connection = new SqlConnection(connectionString))
             {
                 return await connection.QueryAsync<TEntity>($"SELECT * FROM {type.Name}s");
             }

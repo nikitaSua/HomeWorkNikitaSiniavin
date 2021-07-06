@@ -14,7 +14,7 @@ namespace DapperPractice.Models
         public int Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
         public int Country { get; set; }
-        public DateTime CreatedAt { get { return CreatedAt; } set { CreatedAt = DateTime.Now; } }
+        public DateTime CreatedAt { get; set; }
         public List<Merchant> Merchants { get; set; }
         public List<Order> Orders { get; set; }
         public User()

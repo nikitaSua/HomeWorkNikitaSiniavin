@@ -14,7 +14,7 @@ namespace DapperPractice.Models
         public string Name  { get; set; }
         public int Price { get; set; }
         public int Status { get; set; }
-        public DateTime CreatedAt { get { return CreatedAt; } set { CreatedAt = DateTime.Now; } }
+        public DateTime CreatedAt { get; set; }
         public List<OrderItem> OrderItems { get; set; }
         public Product()
         {
