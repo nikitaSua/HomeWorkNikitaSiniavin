@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Tasks";
+    Layout = "_Layout";
+}
+
+
+
+<h4>@ViewData["Message"]</h4>
+
+@foreach (string country in ViewBag.Countries)
+{
+    <p>@country</p>
+}

@@ -1,0 +1,44 @@
+﻿@model Asp.Net.Practice_Forms.Models.User
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" id="myForm">
+            <label>FirstName:</label><br />
+            <input type="text" name="FirstName" class="Input_text_constr"/><br /><br />
+
+            <label>LastName:</label><br />
+            <input type="text" name="LastName" class="Input_text_constr"/><br /><br />
+
+            <label>Email:</label><br />
+            <input type="text" name="Email" required class="Input_text_constr email_inp"/><br /><br />
+
+            <label>ConfEmail:</label><br />
+            <input type="text" name="ConfEmail" required class="Input_text_constr email_inp"/><br /><br />
+
+            <label>Пароль:</label><br />
+            <input type="text" name="password" required class="pass_inp"/><br /><br />
+
+            <label>Conf Пароль:</label><br />
+            <input type="text" name="ConfPassword" required class="pass_inp"/><br /><br />
+
+
+            <input type="submit" value="Отправить" id="sendButton"/>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+<script src="/js/signUpSheck.js"></script>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
