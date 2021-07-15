@@ -1,2 +1,11 @@
 Processing request /
 Processing request /ToDo/Index
+Processing request /
+Processing request /Signup
+Processing request /Signup2
+Processing request /
+Processing request /home
+Processing request /Home/Index
+Processing request /Home/Create
+Processing request /
+Processing request /Account/Register

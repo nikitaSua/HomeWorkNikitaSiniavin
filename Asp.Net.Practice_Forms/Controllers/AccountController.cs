@@ -3,6 +3,7 @@ using Asp.Net.Practice_Forms.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,11 @@ namespace Asp.Net.Practice_Forms.Controllers
     public class AccountController : Controller
     {
         private UserService userService;
-        public AccountController(UserService userService)
+        private readonly ILogger<HomeController> _logger;
+        public AccountController(UserService userService, ILogger<HomeController> logger)
         {
             this.userService = userService;
+            _logger = logger;
         }
         [HttpGet]
         public IActionResult Login()
@@ -44,6 +47,7 @@ namespace Asp.Net.Practice_Forms.Controllers
         [HttpGet]
         public IActionResult Register()
         {
+            _logger.LogInformation("http Get Register",HttpContext.Request.QueryString );
             return View("~/Views/SignUp/Index.cshtml");
         }
         [HttpPost]

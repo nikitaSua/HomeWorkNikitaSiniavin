@@ -1,0 +1,17 @@
+2021-07-15 12:08:20.8232 Info Message Template Auto Format enabled
+2021-07-15 12:08:20.8433 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-15 12:08:20.8901 Info Adding target FileTarget(Name=allfile)
+2021-07-15 12:08:20.8901 Info Adding target FileTarget(Name=ownFile-web)
+2021-07-15 12:08:20.9242 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=E:\NIx Projects\Asp.Net.Practice_Forms\bin\Debug\net5.0\NLog.config
+2021-07-15 12:08:20.9468 Info Configuration initialized.
+2021-07-15 12:08:20.9468 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.10.13013. Product version: 4.7.10+8142cd035d2c212fd82a4eb0081aed68da713b9e. GlobalAssemblyCache: False
+2021-07-15 12:17:36.3120 Info Message Template Auto Format enabled
+2021-07-15 12:17:36.3329 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-15 12:17:36.4034 Info Adding target FileTarget(Name=allfile)
+2021-07-15 12:17:36.4133 Info Adding target FileTarget(Name=ownFile-web)
+2021-07-15 12:17:36.4629 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=E:\NIx Projects\Asp.Net.Practice_Forms\bin\Debug\net5.0\nlog.config
+2021-07-15 12:27:24.2455 Info Message Template Auto Format enabled
+2021-07-15 12:27:24.2796 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-15 12:27:24.3431 Info Adding target FileTarget(Name=allfile)
+2021-07-15 12:27:24.3533 Info Adding target FileTarget(Name=ownFile-web)
+2021-07-15 12:27:24.4074 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=E:\NIx Projects\Asp.Net.Practice_Forms\bin\Debug\net5.0\nlog.config
